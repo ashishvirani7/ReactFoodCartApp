@@ -13,14 +13,16 @@ var divRectangle = {
     width:'80%',
     height:'600px',
     border:'1px solid #000',
-    'margin-left' : '10%'
+    'margin-left' : '10%',
+    color:"green"
 }
 
 var divRectangle2 = {
   width:'80%',
   height:'700px',
   border:'1px solid #000',
-  'margin-left' : '10%'
+  'margin-left' : '10%',
+  color:"blue"
 }
 
 var divRectangleInner = {
