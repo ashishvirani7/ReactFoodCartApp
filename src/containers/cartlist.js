@@ -7,7 +7,6 @@ var divRectangleInner = {
     width:'95%',
     height:'85px',
     border:'1px solid #000',
-    'margin-left' : '1%',
     'margin-top' : '2%',
 }
 
@@ -20,12 +19,12 @@ class CartList extends Component{
             return(
                 <div key={item.id} style={divRectangleInner}>
                     <span class="row">
-                        <span style={{width:'50%',float:'left','margin-top' : '4%',}}>
-                            <font size="5"> {item.title} </font>
+                        <span style={{width:'60%',float:'left','margin-top' : '4%',}}>
+                            <font size="6"> {item.title} </font>
                         </span>
-                        <span style={{width:'30%',float:'left','margin-top' : '6%',}}>
-                            <div>$ {parseFloat(item.price).toFixed(2)}</div>
-                            <div>Qty: {(item.quantity)}</div>
+                        <span style={{width:'20%',float:'left','margin-top' : '3%',}}>
+                            <div><font size="4">$ {parseFloat(item.price).toFixed(2)} </font></div>
+                            <div><font size="4">Qty: {(item.quantity)}</font></div>
                         </span>
                 
                         <span style={{width:'20%',float:'left','margin-top' : '6%',}}>                           

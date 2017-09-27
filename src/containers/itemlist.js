@@ -21,11 +21,11 @@ class ItemList extends Component{
             return(
                 <div key={item.id} style={divRectangleInner}>
                     <span class="row">
-                        <span style={{width:'50%',float:'left','margin-top' : '4%',}}>
-                            <font size="5"> {item.title} </font>
+                        <span style={{width:'60%',float:'left','margin-top' : '4%',}}>
+                            <font size="6"> {item.title} </font>
                         </span>
-                        <span style={{width:'30%',float:'left','margin-top' : '6%',}}>
-                            $ {parseFloat(item.price).toFixed(2)}
+                        <span style={{width:'20%',float:'left','margin-top' : '6%',}}>
+                            <font size="4">$ {parseFloat(item.price).toFixed(2)} </font>
                         </span>
                 
                         <span style={{width:'20%',float:'left','margin-top' : '6%',}}>                           
